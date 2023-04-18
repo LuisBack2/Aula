@@ -1,0 +1,44 @@
+/* Estilo para o cabeçalho */
+header {
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 999;
+  }
+  
+  /* Estilo para o container do cabeçalho */
+  .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* Estilo para a navegação */
+  nav {
+    display: flex;
+  }
+  
+  nav a {
+    color: #333;
+    text-decoration: none;
+    font-size: 16px;
+    margin-left: 20px;
+  }
+  
+  nav a:hover {
+    color: #f15a22;
+  }
+  
+  /* Estilo para o título */
+  h1 {
+    
+    color: #229ef1;
+    font-size: 36px;
+    margin: 0;
+  }
